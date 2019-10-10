@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <camera 
+    mode="normal" 
+    device-position="back" 
+    flash="auto" 
+    frame-size="medium"
+    style="position:fixed;width:100%;height:100%">
+  </camera>
+</view>
