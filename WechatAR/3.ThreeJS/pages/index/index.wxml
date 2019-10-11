@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <!--创建canvas标签用于WebGL-->
+  <canvas 
+    type="webgl" 
+    id="webgl" 
+    canvas-id="webgl" 
+    style="width:{{canvasWidth}}px;height:{{canvasHeight}}px;">
+  </canvas>
+</view>
