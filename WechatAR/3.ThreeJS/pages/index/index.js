@@ -95,7 +95,7 @@ Page({
     console.log(1/duration + 'FPS');
     //重新赋值上一帧时间
     this._lastTime = now;
-    //旋转Cube对象，这里希望每秒钟Cube对象沿着Y轴旋转180度（Three.js中用弧度标是，所以是Math.PI）
+    //旋转Cube对象，这里希望每秒钟Cube对象沿着Y轴旋转180度（Three.js中用弧度表示，所以是Math.PI）
     cube.rotation.y += duration * Math.PI;
     
     //渲染执行场景，指定摄像头看到的画面
