@@ -62,6 +62,7 @@ Page({
       var data = new Uint8Array(frame.data);
       //通过RGBA的数据格式生成贴图
       var tex = new THREE.DataTexture(data, frame.width, frame.height, THREE.RGBAFormat);
+      tex.needsUpdate = true;//纹理更新
       //清理次摄像头数据的贴图
       if(this._tex != null)
       {
